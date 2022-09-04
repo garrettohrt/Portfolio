@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS';
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header-h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header-nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
