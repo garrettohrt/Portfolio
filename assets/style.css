@@ -4,31 +4,128 @@
     margin: 0;
 }
 
-header {
-    padding: 20px;
+
+
+body {
+    background-color: rgb(233, 229, 237);
     font-family: 'Trebuchet MS';
-    background-color: #2a607c;
-    color: #ffffff;
+
 }
 
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(103, 103, 103);
+}
+
+
+
 .header-h1 {
-    display: inline-block;
+    text-align: center;
+    background-color: aqua;
+    color: rgb(103, 103, 103);
     font-size: 48px;
 }
 
-.header-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
 }
 
-ul {
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    color: aqua;
     list-style-type: none;
+
 }
 
-ul li {
-    display: inline-block;
-    margin-left: 25px;
+.banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    background-image: url("./images/universe.jpg");
+    background-size: cover;
+}
+
+.header-h2 {
+    background-color: aqua;
+    color: rgb(103, 103, 103);
+    padding: 4px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {
+    font-size: 38px;
+    color: rgb(36, 0, 164);
+}
+
+.section-underline {
+    height: 2px;
+    margin: 10px 0;
+    background-color: rgb(36, 0, 164);
+}
+
+.about-p {
+    padding-top: 6px;
+}
+
+.project-link {
+    display: flex;
+    border: 6px solid aqua;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.project-text-box {
+    background-color: aqua;
+}
+
+#link-1:hover {
+    opacity: 1;
+}
+
+#link-1 {
+    background-image: url("./images/link-1.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+}
+
+footer {
+    padding: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links {
+    display: flex;
+justify-content: space-evenly;
+    width: 70vw;
+    list-style-type: none;
+
 }
