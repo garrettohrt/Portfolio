@@ -19,7 +19,10 @@ header {
     background-color: rgb(103, 103, 103);
 }
 
-
+.h1-navbar {
+    display: flex;
+    flex-direction: column;
+}
 
 .header-h1 {
     text-align: center;
@@ -48,6 +51,7 @@ header {
 a {
     text-decoration: none;
 }
+
 /* Coloring links before and after click*/
 .fill:link,
 .fill:visited {
@@ -90,7 +94,9 @@ main {
 }
 
 .section-underline {
+    display: flex;
     height: 2px;
+    width: 100%;
     margin: 10px 0;
     background-color: rgb(36, 0, 164);
 }
@@ -105,6 +111,18 @@ main {
 
 .about-p {
     padding-top: 6px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.link-alignment {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .project-link {
@@ -215,8 +233,14 @@ footer {
 {
 color: aqua;
 }
+
 /* media querie changes the arrangement for tablet view */
 @media screen and (min-width: 768px) {
+    .link-alignment {
+        flex-direction: row;
+
+    }
+
     .project-link {
         flex-direction: row;
         justify-content: flex-start;
@@ -225,23 +249,10 @@ color: aqua;
 
     #link-1 {
         height: 500px;
+
     }
 
-    #link-2 {
-        width: 40%;
-    }
 
-    #link-3 {
-        width: 40%;
-    }
-
-    #link-4 {
-        width: 40%;
-    }
-
-    #link-5 {
-        width: 40%;
-    }
 
     .footer-nav {
         display: flex;
@@ -252,49 +263,59 @@ color: aqua;
     .footer-links {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        width: 70vw;
+        width: 90vw;
         height: 6vw;
         list-style-type: none;
 
     }
 }
+
 /* Media querie changes the arrangement for desktop view */
 @media screen and (min-width: 980px) {
-    header {}
+    .h1-navbar {
+        flex-direction: row;
+    }
 
     .header-h1 {
-        align-items: center;
         width: 30vw;
     }
 
     .navbar {
-        align-items:flex-end;
-        flex-direction:row;
+        justify-content: right;
+    }
+
+    .banner {
         justify-content: flex-end;
     }
 
-    .header-h2 {
-        justify-content: flex-end;
-    }
 
     .content {
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+
     }
-    
-    #desktop-padding {
+
+    .section-underline {
+        align-self:stretch;
+        height: 100%;
+        width: 2px;
+        margin: 0 10px;
+        background-color: rgb(36, 0, 164);
+    }
+
+    .section-header {
         padding-left: 80px;
         padding-right: 20px;
     }
-.about-p {
-    padding-left: 10px;
-}
 
-#link-1 {
-    width: 80vw;
-}
+    .about-p {
+        padding-left: 10px;
+    }
 
+
+
+    footer {
+        align-items: center;
+    }
 
 }
