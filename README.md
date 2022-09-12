@@ -2,6 +2,7 @@
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
+[_Users_garrettbootcamp_Challenge-02_Portfolio_index copy html](https://user-images.githubusercontent.com/109110256/189772436-498e3d06-d1ea-4930-904c-c54fd6c85cca.png)
 ## About The Project
 This project was about building a portfolio for my work.
 
