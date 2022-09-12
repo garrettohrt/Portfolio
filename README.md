@@ -5,7 +5,6 @@
 ## About The Project
 This project was about building a portfolio for my work.
 
-[_Users_garrettbootcamp_Challenge-01_Semantic-HTML-refactor_index html (2)](https://user-images.githubusercontent.com/109110256/187984376-c43fa8e9-249e-4250-9fad-9e34eae10048.png)(https://garrettohrt.github.io/Semantic-HTML-refactor/)
 
 
 
@@ -24,6 +23,9 @@ Use the navigation bar at the top to move to the different sections of the page.
 
 Garrett Ohrt - garrettohrt@gmail.com
 
-Project Link: [https://github.com/garrettohrt/Portfolio](https://github.com/garrettohrt/Portfolio)
+Project Link: [https://garrettohrt.github.io/Portfolio/](https://garrettohrt.github.io/Portfolio/)
+
+Project Repository: [https://github.com/garrettohrt/Portfolio]
+(https://github.com/garrettohrt/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
