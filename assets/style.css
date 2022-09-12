@@ -5,7 +5,6 @@
 }
 
 
-
 body {
     background-color: rgb(233, 229, 237);
     font-family: 'Trebuchet MS';
@@ -13,7 +12,7 @@ body {
 }
 
 
-
+/* Header flexed with mobile design in mind first */
 header {
     display: flex;
     flex-direction: column;
@@ -49,7 +48,7 @@ header {
 a {
     text-decoration: none;
 }
-
+/* Coloring links before and after click*/
 .fill:link,
 .fill:visited {
     color: aqua;
@@ -123,7 +122,7 @@ main {
     padding: 10px;
 }
 
-
+/* Opacity hover effect on all project links*/
 #link-1:hover {
     opacity: 1;
 }
@@ -206,6 +205,7 @@ footer {
     padding: 10px;
 }
 
+/* Coloring links before and after click*/
 .fill-bottom:link,
 .fill-bottom:visited {
     color: rgb(36, 0, 164);
@@ -215,7 +215,7 @@ footer {
 {
 color: aqua;
 }
-
+/* media querie changes the arrangement for tablet view */
 @media screen and (min-width: 768px) {
     .project-link {
         flex-direction: row;
@@ -259,7 +259,7 @@ color: aqua;
 
     }
 }
-
+/* Media querie changes the arrangement for desktop view */
 @media screen and (min-width: 980px) {
     header {}
 
@@ -288,6 +288,13 @@ color: aqua;
         padding-left: 80px;
         padding-right: 20px;
     }
+.about-p {
+    padding-left: 10px;
+}
+
+#link-1 {
+    width: 80vw;
+}
 
 
 }
